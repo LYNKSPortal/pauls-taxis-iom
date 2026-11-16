@@ -1,8 +1,8 @@
 export const SITE = {
   name: "Paul's Taxis",
   tagline: "Reliable Taxi Services Across the Isle of Man",
-  phone: "+44 7624 000000",
-  phoneDisplay: "07624 000 000",
+  phone: "+44 7624 266000",
+  phoneDisplay: "07624 266 000",
   email: "info@paulstaxis.im",
   url: "https://www.paulstaxis.im",
   address: "Isle of Man",
