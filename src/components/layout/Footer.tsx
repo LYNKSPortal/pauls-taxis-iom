@@ -80,7 +80,11 @@ export default function Footer() {
                   Manx Data Protection
                 </Link>
               </li>
-              <li className="text-white/50">Company Number: 123456C</li>
+              <li className="text-white/50">Company Number: 029565B</li>
+              <li className="text-white/50">
+                Registered Office: 16 Ballacrosha, Ballaugh, IM7 5AG, Isle of
+                Man
+              </li>
             </ul>
           </div>
 

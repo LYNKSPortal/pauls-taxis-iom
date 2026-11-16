@@ -18,7 +18,7 @@ export default function AboutPage() {
         title="Our Family Story"
         description="From Castletown to island-wide, three generations of trusted, friendly service."
         breadcrumb="About"
-        image="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?q=80&w=2000&auto=format&fit=crop"
+        image="/Paul.jpg"
       />
 
       <section className="bg-white py-24 sm:py-32">

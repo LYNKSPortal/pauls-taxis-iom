@@ -12,7 +12,6 @@ export const NAV_LINKS = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Services", href: "/services" },
-  { label: "Gallery", href: "/gallery" },
   { label: "Pre-Book Taxi", href: "/booking" },
 ];
 
@@ -133,68 +132,6 @@ export const TESTIMONIALS = [
     review:
       "Ferry transfer was seamless, driver waited for us even though we were delayed. Excellent, professional service.",
     rating: 5,
-  },
-];
-
-export const GALLERY_CATEGORIES = [
-  "All",
-  "Vehicles",
-  "Island Views",
-  "Team",
-  "Airport",
-] as const;
-
-export type GalleryImage = {
-  src: string;
-  category: (typeof GALLERY_CATEGORIES)[number];
-  alt: string;
-};
-
-export const GALLERY_IMAGES: GalleryImage[] = [
-  {
-    src: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1200&auto=format&fit=crop",
-    category: "Vehicles",
-    alt: "Modern taxi vehicle",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=1200&auto=format&fit=crop",
-    category: "Island Views",
-    alt: "Isle of Man coastline",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1200&auto=format&fit=crop",
-    category: "Airport",
-    alt: "Airport terminal",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
-    category: "Vehicles",
-    alt: "Taxi fleet vehicle",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?q=80&w=1200&auto=format&fit=crop",
-    category: "Team",
-    alt: "Friendly driver",
-  },
-  {
-    src: "/Steampacket.jpg",
-    category: "Island Views",
-    alt: "Steam Packet ferry terminal",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?q=80&w=1200&auto=format&fit=crop",
-    category: "Island Views",
-    alt: "Isle of Man hills",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?q=80&w=1200&auto=format&fit=crop",
-    category: "Vehicles",
-    alt: "Taxi at night",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1600320254374-ce2d293c324e?q=80&w=1200&auto=format&fit=crop",
-    category: "Team",
-    alt: "Team member",
   },
 ];
 
